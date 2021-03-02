@@ -47,7 +47,7 @@
   ],
   "dependencies": {
     "@dashevo/dashcore-lib": "^0.19.21",
-    "@dashevo/dashd-rpc": "^2.1.0",
+    "@dashevo/dashd-rpc": "^2.1.1",
     "async": "^2.6.3",
     "body-parser": "^1.19.0",
     "colors": "^1.4.0",
