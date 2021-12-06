@@ -1,13 +1,13 @@
 {
-  "name": "@dashevo/dashcore-node",
-  "description": "Full node with extended capabilities using Dashcore and Dash Core (dashd)",
+  "name": "@weicrypto/weicore-node",
+  "description": "Full node with extended capabilities using Weicore and Wei Core (weid)",
   "author": "BitPay <dev@bitpay.com>",
   "version": "6.2.3",
   "main": "./index.js",
-  "repository": "git://github.com/dashevo/dashcore-node.git",
-  "homepage": "https://github.com/dashevo/dashcore-node",
+  "repository": "git://github.com/weicrypto/weicore-node.git",
+  "homepage": "https://github.com/weicrypto/weicore-node",
   "bugs": {
-    "url": "https://github.com/dashevo/dashcore-node/issues"
+    "url": "https://github.com/weicrypto/weicore-node/issues"
   },
   "contributors": [
     {
@@ -27,7 +27,7 @@
     }
   ],
   "bin": {
-    "dashcore-node": "./bin/dashcore-node"
+    "weicore-node": "./bin/weicore-node"
   },
   "scripts": {
     "test": "mocha -R spec --recursive",
@@ -36,15 +36,15 @@
     "coverage": "istanbul cover _mocha -- --recursive",
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "mocha": "./node_modules/.bin/mocha",
-    "dashd_test": "./node_modules/.bin/mocha test/services/dashd.unit.js"
+    "weid_test": "./node_modules/.bin/mocha test/services/weid.unit.js"
   },
   "tags": [
-    "dash",
-    "dashd"
+    "wei",
+    "weid"
   ],
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.19.25",
-    "@dashevo/dashd-rpc": "^2.3.0",
+    "@weicrypto/weicore-lib": "https://github.com/weicrypto/weicore-lib.git",
+    "@weicrypto/weid-rpc": "https://github.com/weicrypto/weid-rpc.git",
     "async": "^2.6.1",
     "body-parser": "^1.18.3",
     "colors": "^1.3.3",
@@ -65,7 +65,7 @@
     "utf-8-validate": "~5.0.2"
   },
   "devDependencies": {
-    "@dashevo/dashcore-p2p": "^1.2.2",
+    "@weicrypto/weicore-p2p": "https://github.com/weicrypto/weicore-p2p.git",
     "benchmark": "2.1.4",
     "chai": "^4.3.0",
     "coveralls": "^3.0.4",

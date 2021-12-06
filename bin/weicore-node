@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var weicore = require('../lib/cli/weicore');
+weicore();
