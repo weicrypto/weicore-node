@@ -70,8 +70,7 @@ weicore-node start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-[comment]: <> (todo update later)
-Please note that [Dash Core](https://github.com/dashpay/dash/tree/master) needs to be installed first.
+Please note that [Wei Core](https://github.com/weicrypto/wei/tree/master) needs to be installed first.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 

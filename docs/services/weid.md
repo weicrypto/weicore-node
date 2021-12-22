@@ -1,6 +1,5 @@
 # Wei Service
-[comment]: <> (todo update later)
-The Dash Service is a Node.js interface to [Dash Core](https://github.com/dashpay/dash) for querying information about the Dash block chain. It will connect to a running `weid` process. It uses additional, optional indexes in Dash Core for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
+The Wei Service is a Node.js interface to [Wei Core](https://github.com/weicrypto/wei) for querying information about the Wei block chain. It will connect to a running `weid` process. It uses additional, optional indexes in Wei Core for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
 
 ## Configuration
 
